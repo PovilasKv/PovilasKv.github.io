@@ -53,6 +53,10 @@ body {
     font-weight: 600;
 }
 
+.item21 {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
 .item2 {
     display: flex;
     flex-direction: row;
@@ -64,7 +68,7 @@ body {
     width: 65%;
     max-height: fit-content;
     height: 35%;
-    margin: 100px auto;
+    margin: auto;
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 50px;
@@ -109,11 +113,10 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    margin: 100px auto;
-    min-height: 500px;
+    min-height: 800px;
     align-items: center;
     justify-content: center;
-    background-image: url(https://thumbs.dreamstime.com/z/engineering-students-working-lab-student-using-voltage-current-tester-another-student-background-using-87759215.jpg);
+    background-image: url(https://www.shutterstock.com/image-photo/business-people-team-working-on-260nw-1834646950.jpg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -158,6 +161,189 @@ body {
     font-size: 30px;
 }
 
+.item4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 70%;
+    column-gap: 40px;
+    row-gap: 50px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: 'Segoe UI';
+    
+}
+
+.i0 h1 {
+    margin-bottom: 20px;
+}
+
+.i1, .i2, .i3, .i4, .i5, .i6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    background-color:white;
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.i1 p, .i2 p, .i3 p, .i4 p, .i5 p, .i6 p {
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;  
+}
+
+.i1 h1, .i2 h1, .i3 h1, .i4 h1, .i5 h1, .i6 h1 {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.i1 i, .i2 i, .i3 i, .i4 i, .i5 i, .i6 i {
+    display: flex;
+    font-size: 70px;
+    text-align: center; 
+    color: lightblue;
+}
+
+
+
+.i0 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 50px;
+}
+
+.item51{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCW2G4UAAuIKMv_nXKyBLfQms9t3DsW-GXnZS-CdscSPrCWSrPmoCbu1Gt69Ykr6ER_0w&usqp=CAU);
+    background-size: cover;
+}
+.item5 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: white;
+    max-width: 1900px;
+    width: 65%;
+    max-height: fit-content;
+    height: 35%;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    column-gap: 5px;
+    font-family: 'Segoe UI';
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.k1 legend, .k2 legend {
+    font-size: 45px;
+}
+
+
+.k1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: stretch;
+}
+
+
+.k2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: stretch;
+}
+
+.k2 p, a {
+    font-size: 26px;
+}
+
+.k24 i{
+    font-size: 60px;
+    padding-right: 30px;
+
+}
+.k24 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.k24 a:hover {
+    color: blue;
+}
+
+.k24 a:active {
+    color: inherit; 
+}
+
+.k21, .k22, .k23 {
+    padding-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 25px;
+}
+
+#name-in, #email-in, #subject-in {
+    width: 95%;
+    font-size: 20px;
+    height: 50px;
+    padding-left: 10px;
+    font-family: 'Segoe UI';
+}
+#message-in {
+    width: 95%;
+    font-size: 20px;
+    height: 200px;
+    font-family: 'Segoe UI';
+    padding-top: 10px;
+    padding-left: 10px;
+    resize: vertical;
+}
+
+#submit {
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    height: 75px;
+    width: 225px;
+    margin: 20px auto;
+    display: block;
+}
+
 
 @media (max-width: 1450px) {
     .nav-bar {
@@ -168,6 +354,12 @@ body {
     .item2 {
         flex-wrap: wrap;
     }
+    .item5 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
 }
 
 @media (max-width: 900px) {
