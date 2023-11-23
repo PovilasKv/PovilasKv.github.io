@@ -374,11 +374,11 @@ footer {
     justify-content: center;
     background-color: rgb(71, 89, 255);
     color: white;
-    font-size: 25px;
+    font-size: 19px;
     padding: 10px 20px;
     border-radius: 25px;
-    height: 75px;
-    width: 225px;
+    height: 50px;
+    width: 170px;
     margin: 20px auto;
     display: block;
 }
