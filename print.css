@@ -1,0 +1,64 @@
+@media print {
+    body {
+        margin: 0;
+        background-color: white; /* Set background color to white for better printing */
+    }
+
+    .nav-bar {
+        display: none; /* Hide navigation bar for printing */
+    }
+
+    .item1 {
+        background-image: none; /* Remove background image for printing */
+        height: auto;
+    }
+
+    .item2 {
+        width: 100%; /* Make item2 take full width */
+        padding: 20px; /* Add some padding for better readability */
+    }
+
+    .pirmas {
+        flex-direction: column;
+        column-gap: 0; /* Remove column gap */
+        padding-left: 0; /* Remove left padding */
+        padding-right: 0; /* Remove right padding */
+    }
+
+    .antras {
+        flex: 1;
+        padding-left: 0; /* Remove left padding */
+        padding-right: 0; /* Remove right padding */
+    }
+
+    .item3 {
+        background-image: none; /* Remove background image for printing */
+    }
+
+    .item4, .item5 {
+        width: 100%; /* Make item4 and item5 take full width */
+        padding: 20px; /* Add some padding for better readability */
+    }
+
+    .i0 {
+        width: 100%;
+        text-align: left; /* Align text to the left */
+    }
+
+    .i1, .i2, .i3, .i4, .i5, .i6 {
+        width: 100%;
+        text-align: left; /* Align text to the left */
+    }
+
+    footer {
+        text-align: left; /* Align text to the left */
+    }
+
+    #submit {
+        display: none; /* Hide submit button for printing */
+    }
+
+    /* Add more styles as needed for other elements */
+
+}
+
