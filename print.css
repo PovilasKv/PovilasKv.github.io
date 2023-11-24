@@ -30,6 +30,10 @@
         padding-right: 0; 
     }
 
+    .pirmas a {
+        display: none;
+    }
+
     .antras {
         flex: 1;
         padding-left: 0; 
