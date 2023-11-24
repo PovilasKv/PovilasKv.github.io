@@ -264,8 +264,6 @@ body {
     margin: auto;
     padding-left: 70px;
     padding-right: 70px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     column-gap: 5px;
     font-family: 'Segoe UI';
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -283,6 +281,10 @@ body {
     flex-wrap: wrap;
     flex: 1;
     align-items: stretch;
+}
+
+.pirmas a {
+    text-decoration: underline;
 }
 
 input::placeholder {
@@ -325,8 +327,8 @@ textarea::placeholder {
     color: inherit;
 }
 
-.k24 a:hover {
-    color: darkblue;
+.k24 i:hover {
+    color: lightskyblue;
 }
 
 .k24 a:active {
@@ -382,6 +384,7 @@ footer {
     width: 170px;
     margin: 20px auto;
     display: block;
+    border-width: 0;
 }
 
 
